@@ -1,0 +1,9 @@
+{
+  "0807": {
+    "name": "Notodden kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.notodden.kommune.no/api/utvalg"
+    }
+  }
+}

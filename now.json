@@ -1,0 +1,10 @@
+{
+  "name": "folkevalgt-api",
+  "alias": [
+    "folkevalgt.alheimsins.net"
+  ],
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  }
+}

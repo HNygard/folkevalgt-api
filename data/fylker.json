@@ -1,0 +1,16 @@
+{
+  "07": {
+    "name": "Vestfold fylkeskommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.vfk.no/api/utvalg"
+    }
+  },
+  "08": {
+    "name": "Telemark fylkeskommune",
+    "adapter": {
+      "type": "tfk",
+      "endpoint": "https://politiker-api.t-fk.no/committees"
+    }
+  }
+}
