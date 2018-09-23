@@ -2,10 +2,14 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 const axios = require('axios')
 
 function transformPerson (data) {
+  const committees = data.committees.filter(committee => committee.groupRecno === data.selectedCommittee)
+  const parties = data.committees.filter(committee => committee.role === 'Parti')
+  const party = parties[0] || {}
+  const committee = committees[0] || {}
   return {
-    Id: 204567,
-    Funksjon: 'Leder i utvalg',
-    Representerer: 'Høyre',
+    Id: data.recno,
+    Funksjon: committee.roleDescription,
+    Representerer: party.name || 'Uavhengig',
     Sortering: 1,
     Provider: null,
     Utvalg: null,
@@ -46,8 +50,10 @@ module.exports = async options => {
   if (options.committeeId) {
     const memberUrl = `${options.adapter.endpoint}/${options.committeeId}/members`
     const url = `${options.adapter.endpoint}/${options.committeeId}`
-    const [members, committee] = await Promise.all([axios(memberUrl), axios(url)])
-    const data = transformCommittee(committee.data[0], members.data)
+    const [membersResult, committeeResult] = await Promise.all([axios(memberUrl), axios(url)])
+    const committee = committeeResult.data[0]
+    const members = membersResult.data.map(member => Object.assign(member, { selectedCommittee: committee._id }))
+    const data = transformCommittee(committee, members)
     return data
   } else {
     const url = `${options.adapter.endpoint}`
