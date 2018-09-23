@@ -1,4 +1,11 @@
 {
+  "0604": {
+    "name": "Kongsberg kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru2.kongsberg.kommune.no/api/utvalg"
+    }
+  },
   "0807": {
     "name": "Notodden kommune",
     "adapter": {
