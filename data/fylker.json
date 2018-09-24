@@ -12,5 +12,13 @@
       "type": "tfk",
       "endpoint": "https://politiker-api.t-fk.no/committees"
     }
+  },
+  "50": {
+    "name": "Trøndelag fylkeskommune",
+    "adapter": {
+      "type": "opengov",
+      "host": "http://opengov.cloudapp.net",
+      "path": "/Meetings/TRFKPROD"
+    }
   }
 }

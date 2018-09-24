@@ -6,6 +6,14 @@
       "endpoint": "https://sru2.kongsberg.kommune.no/api/utvalg"
     }
   },
+  "0806": {
+    "name": "Skien kommune",
+    "adapter": {
+      "type": "opengov",
+      "host": "http://opengov.cloudapp.net",
+      "path": "/meetings/skien"
+    }
+  },
   "0807": {
     "name": "Notodden kommune",
     "adapter": {
