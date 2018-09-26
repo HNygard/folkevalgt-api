@@ -48,6 +48,7 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
+    "@alheimsins/acos-innsyn": "1.0.0",
     "axios": "0.18.0",
     "cors": "2.8.4",
     "finalhandler": "1.1.1",

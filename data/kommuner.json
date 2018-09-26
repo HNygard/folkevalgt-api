@@ -1,4 +1,11 @@
 {
+  "0219": {
+    "name": "Bærum kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https://www.baerum.kommune.no/innsyn/politikk"
+    }
+  },
   "0604": {
     "name": "Kongsberg kommune",
     "adapter": {
