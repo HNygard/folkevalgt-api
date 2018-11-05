@@ -50,7 +50,7 @@
   "dependencies": {
     "@alheimsins/acos-innsyn": "1.0.0",
     "axios": "0.18.0",
-    "cors": "2.8.4",
+    "cors": "2.8.5",
     "finalhandler": "1.1.1",
     "markdown-it": "8.4.2",
     "micro": "9.3.3",
