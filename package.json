@@ -9,6 +9,12 @@
     "email": "geir.gasodden@pythonia.no",
     "url": "https://github.com/zrrrzzt"
   },
+  "contributors": [
+    {
+      "name": "Hallvard Nygård",
+      "url": "http://hnygard.no/"
+    }
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=10.13.0"
