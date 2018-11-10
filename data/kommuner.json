@@ -1,31 +1,899 @@
 {
   "0219": {
-    "name": "Bærum kommune",
+    "name": "B\u00e6rum kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://www.baerum.kommune.no/innsyn/politikk"
+      "endpoint": "https:\/\/www.baerum.kommune.no\/innsyn\/postliste\/"
     }
   },
   "0604": {
     "name": "Kongsberg kommune",
     "adapter": {
       "type": "prokom",
-      "endpoint": "https://sru2.kongsberg.kommune.no/api/utvalg"
+      "endpoint": "https:\/\/sru2.kongsberg.kommune.no\/api\/utvalg"
     }
   },
   "0806": {
     "name": "Skien kommune",
     "adapter": {
       "type": "opengov",
-      "host": "http://opengov.cloudapp.net",
-      "path": "/meetings/skien"
+      "host": "http:\/\/opengov.cloudapp.net",
+      "path": "\/meetings\/skien"
     }
   },
   "0807": {
     "name": "Notodden kommune",
     "adapter": {
       "type": "prokom",
-      "endpoint": "https://sru.notodden.kommune.no/api/utvalg"
+      "endpoint": "https:\/\/sru.notodden.kommune.no\/api\/utvalg"
+    }
+  },
+  "0906": {
+    "name": "Arendal kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https:\/\/sru.arendal.kommune.no"
+    }
+  },
+  "0919": {
+    "name": "Froland kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https:\/\/sru.froland.kommune.no"
+    }
+  },
+  "1120": {
+    "name": "Klepp kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https:\/\/sru.klepp.kommune.no\/"
+    }
+  },
+  "0104": {
+    "name": "Moss kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/moss\/pluss\/"
+    }
+  },
+  "0119": {
+    "name": "Marker kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_marker\/"
+    }
+  },
+  "0122": {
+    "name": "Tr\u00f8gstad kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.trogstad.kommune.no\/"
+    }
+  },
+  "0123": {
+    "name": "Spydeberg kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.spydeberg.kommune.no\/"
+    }
+  },
+  "0124": {
+    "name": "Askim kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.askim.kommune.no\/"
+    }
+  },
+  "0125": {
+    "name": "Eidsberg kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.eidsberg.kommune.no\/"
+    }
+  },
+  "0127": {
+    "name": "Skiptvet kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/skiptvet\/"
+    }
+  },
+  "0135": {
+    "name": "R\u00e5de kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_raade\/"
+    }
+  },
+  "0138": {
+    "name": "Hob\u00f8l kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.hobol.kommune.no\/"
+    }
+  },
+  "0216": {
+    "name": "Nesodden kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_nesodden\/"
+    }
+  },
+  "0230": {
+    "name": "L\u00f8renskog kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/lorenskog\/pluss\/"
+    }
+  },
+  "0402": {
+    "name": "Kongsvinger kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/websak.sorhedmark.no\/innsyn_postliste\/"
+    }
+  },
+  "0412": {
+    "name": "Ringsaker kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www1.ringsaker.kommune.no\/innsyn6\/"
+    }
+  },
+  "0418": {
+    "name": "Nord-Odal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_nordodal\/"
+    }
+  },
+  "0419": {
+    "name": "S\u00f8r-Odal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sorodal\/"
+    }
+  },
+  "0420": {
+    "name": "Eidskog kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_eidskog_pluss\/"
+    }
+  },
+  "0425": {
+    "name": "\u00c5snes kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_asnes\/"
+    }
+  },
+  "0426": {
+    "name": "V\u00e5ler kommune (Hedmark)",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.vaaler-he.kommune.no\/Innsyn_politisk\/"
+    }
+  },
+  "0427": {
+    "name": "Elverum kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_elverum\/"
+    }
+  },
+  "0516": {
+    "name": "Nord-Fron kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_nord-fron\/"
+    }
+  },
+  "0519": {
+    "name": "S\u00f8r-Fron kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sorfron\/"
+    }
+  },
+  "0520": {
+    "name": "Ringebu kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.ringebu.kommune.no\/innsyn\/"
+    }
+  },
+  "0528": {
+    "name": "\u00d8stre Toten kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/ostretoten\/pluss\/"
+    }
+  },
+  "0540": {
+    "name": "S\u00f8r-Aurdal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.sor-aurdal.kommune.no\/innsynfront\/"
+    }
+  },
+  "0541": {
+    "name": "Etnedal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/www.etnedal.kommune.no\/innsynfront\/"
+    }
+  },
+  "0542": {
+    "name": "Nord-Aurdal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/www.nord-aurdal.kommune.no\/innsynfront\/"
+    }
+  },
+  "0543": {
+    "name": "Vestre Slidre kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/www.vestre-slidre.kommune.no\/innsynfront\/"
+    }
+  },
+  "0544": {
+    "name": "\u00d8ystre Slidre kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.oystre-slidre.kommune.no\/innsynfront\/"
+    }
+  },
+  "0545": {
+    "name": "Vang kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/www.vang.kommune.no\/innsynfront\/"
+    }
+  },
+  "0612": {
+    "name": "Hole kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.hole.kommune.no\/v7\/"
+    }
+  },
+  "0622": {
+    "name": "Kr\u00f8dsherad kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.krodsherad.kommune.no\/innsynfront\/"
+    }
+  },
+  "0701": {
+    "name": "Horten kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.horten.kommune.no\/innsyn7\/"
+    }
+  },
+  "0704": {
+    "name": "T\u00f8nsberg kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.v-man.no\/tbg\/"
+    }
+  },
+  "0710": {
+    "name": "Sandefjord kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.sandefjord.kommune.no\/"
+    }
+  },
+  "0712": {
+    "name": "Larvik kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_larvik_politisk_hist\/"
+    }
+  },
+  "0715": {
+    "name": "Holmestrand kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/www.holmestrand.kommune.no\/innsyn\/"
+    }
+  },
+  "0716": {
+    "name": "Re kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.re.kommune.no\/innsyn\/"
+    }
+  },
+  "0722": {
+    "name": "N\u00f8tter\u00f8y kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.v-man.no\/noy\/"
+    }
+  },
+  "0723": {
+    "name": "Tj\u00f8me kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.v-man.no\/tjo\/"
+    }
+  },
+  "0729": {
+    "name": "F\u00e6rder kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.v-man.no\/fer\/"
+    }
+  },
+  "0819": {
+    "name": "Nome kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_nome\/"
+    }
+  },
+  "0821": {
+    "name": "B\u00f8 kommune (Telemark)",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_bo\/"
+    }
+  },
+  "0822": {
+    "name": "Sauherad kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sauherad\/"
+    }
+  },
+  "0926": {
+    "name": "Lillesand kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.lillesand.kommune.no\/innsyn6\/"
+    }
+  },
+  "0928": {
+    "name": "Birkenes kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.birkenes.kommune.no\/"
+    }
+  },
+  "1004": {
+    "name": "Flekkefjord kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn-flekkefjord.ddv.no\/"
+    }
+  },
+  "1101": {
+    "name": "Eigersund kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_eigersund_politisk\/"
+    }
+  },
+  "1114": {
+    "name": "Bjerkreim kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_bjerkreim\/"
+    }
+  },
+  "1119": {
+    "name": "H\u00e5 kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.ha.no\/innsyn_drum\/"
+    }
+  },
+  "1121": {
+    "name": "Time kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_time\/"
+    }
+  },
+  "1122": {
+    "name": "Gjesdal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_gjesdal\/"
+    }
+  },
+  "1124": {
+    "name": "Sola kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/nyttinnsyn.sola.kommune.no\/"
+    }
+  },
+  "1130": {
+    "name": "Strand kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_strand\/"
+    }
+  },
+  "1133": {
+    "name": "Hjelmeland kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_hjelmeland\/"
+    }
+  },
+  "1134": {
+    "name": "Suldal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_suldal\/"
+    }
+  },
+  "1135": {
+    "name": "Sauda kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sauda\/"
+    }
+  },
+  "1145": {
+    "name": "Bokn kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/bokn\/"
+    }
+  },
+  "1160": {
+    "name": "Vindafjord kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_vindafjord\/"
+    }
+  },
+  "1216": {
+    "name": "Sveio kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sveio\/"
+    }
+  },
+  "1227": {
+    "name": "Jondal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/jondal\/"
+    }
+  },
+  "1232": {
+    "name": "Eidfjord kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_eidfjord\/"
+    }
+  },
+  "1233": {
+    "name": "Ulvik herad",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_ulvik\/"
+    }
+  },
+  "1238": {
+    "name": "Kvam herad",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "http:\/\/innsyn.kvam.no\/"
+    }
+  },
+  "1241": {
+    "name": "Fusa kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_fusa\/"
+    }
+  },
+  "1243": {
+    "name": "Os kommune (Hordaland)",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_os\/"
+    }
+  },
+  "1244": {
+    "name": "Austevoll kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_austevoll\/"
+    }
+  },
+  "1245": {
+    "name": "Sund kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.sund.kommune.no\/innsynfront\/"
+    }
+  },
+  "1251": {
+    "name": "Vaksdal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Vaksdal\/innsyn\/"
+    }
+  },
+  "1252": {
+    "name": "Modalen kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Modalen\/innsyn\/"
+    }
+  },
+  "1253": {
+    "name": "Oster\u00f8y kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Osteroy\/innsyn\/"
+    }
+  },
+  "1256": {
+    "name": "Meland kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Meland\/innsyn\/"
+    }
+  },
+  "1259": {
+    "name": "\u00d8ygarden kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_oygarden_pluss\/"
+    }
+  },
+  "1260": {
+    "name": "Rad\u00f8y kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Radoy\/Innsyn\/"
+    }
+  },
+  "1263": {
+    "name": "Lind\u00e5s kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Lindas\/innsyn\/"
+    }
+  },
+  "1264": {
+    "name": "Austrheim kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Austrheim\/innsyn\/"
+    }
+  },
+  "1265": {
+    "name": "Fedje kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Fedje\/Innsyn\/"
+    }
+  },
+  "1266": {
+    "name": "Masfjorden kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.sing.no\/Masfjorden\/innsyn\/"
+    }
+  },
+  "1401": {
+    "name": "Flora kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_flora\/"
+    }
+  },
+  "1412": {
+    "name": "Solund kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_solund\/"
+    }
+  },
+  "1413": {
+    "name": "Hyllestad kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_hyllestad\/"
+    }
+  },
+  "1416": {
+    "name": "H\u00f8yanger kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_hoyanger\/"
+    }
+  },
+  "1421": {
+    "name": "Aurland kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_aurland\/"
+    }
+  },
+  "1422": {
+    "name": "L\u00e6rdal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_laerdal\/"
+    }
+  },
+  "1424": {
+    "name": "\u00c5rdal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_ardal\/"
+    }
+  },
+  "1428": {
+    "name": "Askvoll kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_askvoll\/"
+    }
+  },
+  "1429": {
+    "name": "Fjaler kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_fjaler\/"
+    }
+  },
+  "1430": {
+    "name": "Gaular kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_gaular\/"
+    }
+  },
+  "1431": {
+    "name": "J\u00f8lster kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_jolster\/"
+    }
+  },
+  "1432": {
+    "name": "F\u00f8rde kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_forde\/"
+    }
+  },
+  "1433": {
+    "name": "Naustdal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/naustdal\/"
+    }
+  },
+  "1438": {
+    "name": "Bremanger kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/bremanger.kommune.no\/innsyn_pluss\/"
+    }
+  },
+  "1439": {
+    "name": "V\u00e5gs\u00f8y kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/vagsoy.kommune.no\/innsyn_pluss\/"
+    }
+  },
+  "1441": {
+    "name": "Selje kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/selje.kommune.no\/innsyn_pluss\/"
+    }
+  },
+  "1443": {
+    "name": "Eid kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/eid.kommune.no\/innsyn_pluss\/"
+    }
+  },
+  "1444": {
+    "name": "Hornindal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/hornindal.kommune.no\/innsyn_pluss\/"
+    }
+  },
+  "1445": {
+    "name": "Gloppen kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/gloppen.kommune.no\/innsyn_pluss\/"
+    }
+  },
+  "1449": {
+    "name": "Stryn kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/stryn.kommune.no\/innsyn_pluss\/"
+    }
+  },
+  "1504": {
+    "name": "\u00c5lesund kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.alesund.kommune.no\/"
+    }
+  },
+  "1523": {
+    "name": "\u00d8rskog kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_orskog\/"
+    }
+  },
+  "1524": {
+    "name": "Norddal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/norddal\/"
+    }
+  },
+  "1525": {
+    "name": "Stranda kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_stranda\/"
+    }
+  },
+  "1529": {
+    "name": "Skodje kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_skodje\/"
+    }
+  },
+  "1531": {
+    "name": "Sula kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sula\/"
+    }
+  },
+  "1532": {
+    "name": "Giske kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_giske\/"
+    }
+  },
+  "1534": {
+    "name": "Haram kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_haram\/"
+    }
+  },
+  "1539": {
+    "name": "Rauma kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_rauma\/"
+    }
+  },
+  "1546": {
+    "name": "Sand\u00f8y kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sandoy\/"
+    }
+  },
+  "1567": {
+    "name": "Rindal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_rindal\/"
+    }
+  },
+  "1805": {
+    "name": "Narvik kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/www.narvik.kommune.no\/innsynfront\/"
+    }
+  },
+  "1826": {
+    "name": "Hattfjelldal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.hattfjelldal.kommune.no\/"
+    }
+  },
+  "1841": {
+    "name": "Fauske kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_fauske_pluss\/"
+    }
+  },
+  "1851": {
+    "name": "L\u00f8dingen kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.onacos.no\/lodingen\/"
+    }
+  },
+  "1857": {
+    "name": "V\u00e6r\u00f8y kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.lofotportalen.no\/Varoy\/innsyn\/"
+    }
+  },
+  "1859": {
+    "name": "Flakstad kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.lofotportalen.no\/Flakstad\/innsyn\/"
+    }
+  },
+  "1860": {
+    "name": "Vestv\u00e5g\u00f8y kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_vestvagoy\/"
+    }
+  },
+  "1865": {
+    "name": "V\u00e5gan kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.lofotportalen.no\/Vagan\/innsyn\/"
+    }
+  },
+  "1868": {
+    "name": "\u00d8ksnes kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_oksnes\/"
+    }
+  },
+  "1870": {
+    "name": "Sortland kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sortland\/"
+    }
+  },
+  "1874": {
+    "name": "Moskenes kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.lofotportalen.no\/Moskenes\/innsyn\/"
+    }
+  },
+  "2003": {
+    "name": "Vads\u00f8 kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.vadso.kommune.no\/"
+    }
+  },
+  "2030": {
+    "name": "S\u00f8r-Varanger kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https:\/\/innsyn.e-kommune.no\/innsyn_sorvaranger\/"
     }
   }
 }
