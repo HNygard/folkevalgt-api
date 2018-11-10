@@ -1,7 +1,7 @@
 {
   "name": "folkevalgt-api",
   "description": "Proof of concept av felles api for kontaktinformasjon til folkevalgte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": true,
   "author": {
