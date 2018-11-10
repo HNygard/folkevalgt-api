@@ -27,5 +27,26 @@
       "type": "prokom",
       "endpoint": "https://sru.notodden.kommune.no/api/utvalg"
     }
+  },
+  "0906": {
+    "name": "Arendal kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https:\/\/sru.arendal.kommune.no"
+    }
+  },
+  "0919": {
+    "name": "Froland kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https:\/\/sru.froland.kommune.no"
+    }
+  },
+  "1120": {
+    "name": "Klepp kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https:\/\/sru.klepp.kommune.no\/"
+    }
   }
 }
