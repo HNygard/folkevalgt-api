@@ -51,28 +51,57 @@
     }
   },
   "10": {
-    "name": "Vest-Agder fylkeskommune"
+    "name": "Vest-Agder fylkeskommune",
+    "adapter": {
+      "type": "opengov",
+      "host": "http://opengov.cloudapp.net",
+      "path": "/Meetings/VAF"
+    }
   },
   "11": {
-    "name": "Rogaland fylkeskommune"
+    "name": "Rogaland fylkeskommune",
+    "adapter": {
+      "type": "jupiter",
+      "endpoint": "http://152.93.253.15/motekalender"
+    }
   },
   "12": {
-    "name": "Hordaland fylkeskommune"
+    "name": "Hordaland fylkeskommune",
+    "adapter": {
+      "type": "elements",
+      "endpoint": "https://einnsyn.hfk.no/eInnsyn/Dmb"
+    }
   },
   "14": {
     "name": "Sogn og Fjordande fylkeskommune"
   },
   "15": {
-    "name": "Møre og Romsdal fylkeskommune"
+    "name": "Møre og Romsdal fylkeskommune",
+    "adapter": {
+      "type": "elements",
+      "endpoint": "https://einnsyn.mrfylke.no/eInnsyn/Dmb"
+    }
   },
   "18": {
-    "name": "Nordland fylkeskommune"
+    "name": "Nordland fylkeskommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https://www.nfk.no/politikk/politiske-saker/motekalender-med-saker"
+    }
   },
   "19": {
-    "name": "Troms fylkeskommune"
+    "name": "Troms fylkeskommune",
+    "adapter": {
+      "type": "jupiter",
+      "endpoint": "https://innsyn-vs.tromsfylke.no/motekalender"
+    }
   },
   "20": {
-    "name": "Finnmark fylkeskommune"
+    "name": "Finnmark fylkeskommune",
+    "adapter": {
+      "type": "ffk",
+      "endpoint": "https://www.ffk.no/politikk/politikere"
+    }
   },
   "50": {
     "name": "Trøndelag fylkeskommune",
