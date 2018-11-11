@@ -1,4 +1,34 @@
 {
+  "01": {
+    "name": "Østfold fylkeskommune",
+    "adapter": {
+      "type": "elements",
+      "endpoint": "https://einnsyn.ostfoldfk.no/eInnsyn/Dmb"
+    }
+  },
+  "02": {
+    "name": "Akershus fylkeskommune"
+  },
+  "03": {
+    "name": "Oslo"
+  },
+  "04": {
+    "name": "Hedmark fylkeskommune",
+    "adapter": {
+      "type": "jupiter",
+      "endpoint": "https://innsyn.hedmark.org/motekalender"
+    }
+  },
+  "05": {
+    "name": "Oppland fylkeskommune"
+  },
+  "06": {
+    "name": "Buskerud fylkeskommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru3.bfk.no/api/utvalg"
+    }
+  },
   "07": {
     "name": "Vestfold fylkeskommune",
     "adapter": {
@@ -12,6 +42,37 @@
       "type": "tfk",
       "endpoint": "https://politiker-api.t-fk.no/committees"
     }
+  },
+  "09": {
+    "name": "Aust-Agder fylkeskommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.austagderfk.no/api/utvalg"
+    }
+  },
+  "10": {
+    "name": "Vest-Agder fylkeskommune"
+  },
+  "11": {
+    "name": "Rogaland fylkeskommune"
+  },
+  "12": {
+    "name": "Hordaland fylkeskommune"
+  },
+  "14": {
+    "name": "Sogn og Fjordande fylkeskommune"
+  },
+  "15": {
+    "name": "Møre og Romsdal fylkeskommune"
+  },
+  "18": {
+    "name": "Nordland fylkeskommune"
+  },
+  "19": {
+    "name": "Troms fylkeskommune"
+  },
+  "20": {
+    "name": "Finnmark fylkeskommune"
   },
   "50": {
     "name": "Trøndelag fylkeskommune",
