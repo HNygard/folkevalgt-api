@@ -274,7 +274,7 @@
     }
   },
   "0704": {
-    "name": "T@ønsberg kommune",
+    "name": "Tønsberg kommune",
     "adapter": {
       "type": "acos",
       "endpoint": "http://innsyn.v-man.no/tbg"
@@ -894,6 +894,195 @@
     "adapter": {
       "type": "acos",
       "endpoint": "https://innsyn.e-kommune.no/innsyn_sorvaranger"
+    }
+  },
+  "0105": {
+    "name": "Sarpsborg kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.sarpsborg.com/api/utvalg"
+    }
+  },
+  "0106": {
+    "name": "Fredrikstad kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.fredrikstad.kommune.no/api/utvalg"
+    }
+  },
+  "0136": {
+    "name": "Rygge kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.rygge.kommune.no/api/utvalg"
+    }
+  },
+  "0213": {
+    "name": "Ski kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.ski.kommune.no/api/utvalg"
+    }
+  },
+  "0215": {
+    "name": "Frogn kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.frogn.kommune.no/api/utvalg"
+    }
+  },
+  "0234": {
+    "name": "Gjerdrum kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.gjerdrum.kommune.no/api/utvalg"
+    }
+  },
+  "0235": {
+    "name": "Ullensaker kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.ullensaker.kommune.no/api/utvalg"
+    }
+  },
+  "0236": {
+    "name": "Nes kommune (Akershus)",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.nes-ak.kommune.no/api/utvalg"
+    }
+  },
+  "0237": {
+    "name": "Eidsvoll kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.eidsvoll.kommune.no/api/utvalg"
+    }
+  },
+  "0238": {
+    "name": "Nannestad kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.nannestad.kommune.no/api/utvalg"
+    }
+  },
+  "0239": {
+    "name": "Hurdal kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.hurdal.kommune.no/api/utvalg"
+    }
+  },
+  "0502": {
+    "name": "Gjøvik kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.gjovik.kommune.no/api/utvalg"
+    }
+  },
+  "0605": {
+    "name": "Ringerike kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru.ringerike.kommune.no/api/utvalg"
+    }
+  },
+  "0615": {
+    "name": "Flå kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru-flaa.azurewebsites.net/api/utvalg"
+    }
+  },
+  "0616": {
+    "name": "Nes kommune (Buskerud)",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru-nes.azurewebsites.net/api/utvalg"
+    }
+  },
+  "0617": {
+    "name": "Gol kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru-gol.azurewebsites.net/api/utvalg"
+    }
+  },
+  "0618": {
+    "name": "Hemsedal kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru-hemsedal.azurewebsites.net/api/utvalg"
+    }
+  },
+  "0619": {
+    "name": "Ål kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru-aal.azurewebsites.net/api/utvalg"
+    }
+  },
+  "0620": {
+    "name": "Hol kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru-hol.azurewebsites.net/api/utvalg"
+    }
+  },
+  "0805": {
+    "name": "Porsgrunn kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.porsgrunn.kommune.no/api/utvalg"
+    }
+  },
+  "0904": {
+    "name": "Grimstad kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.grimstad.kommune.no/api/utvalg"
+    }
+  },
+  "1032": {
+    "name": "Lyngdal kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.lyngdal.kommune.no/sru2/api/utvalg"
+    }
+  },
+  "1127": {
+    "name": "Randaberg kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.randaberg.kommune.no/api/utvalg"
+    }
+  },
+  "1144": {
+    "name": "Kvitsøy kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "http://sru.kvitsoy.kommune.no/api/utvalg"
+    }
+  },
+  "1837": {
+    "name": "Meløy kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.meloy.kommune.no/api/utvalg"
+    }
+  },
+  "2023": {
+    "name": "Gamvik kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru-gamvik-web.azurewebsites.net/api/utvalg"
+    }
+  },
+  "5030": {
+    "name": "Klæbu kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.klabu.kommune.no/api/utvalg"
     }
   }
 }
