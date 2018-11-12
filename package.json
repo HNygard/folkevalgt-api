@@ -25,6 +25,7 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
+    "update-kommuner": "node utils/update-kommuner.js",
     "start": "micro",
     "dev": "micro-dev",
     "deploy": "npm test && now && now alias",
