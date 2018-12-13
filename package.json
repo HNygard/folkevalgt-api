@@ -62,7 +62,7 @@
     "finalhandler": "1.1.1",
     "markdown-it": "8.4.2",
     "micro": "9.3.3",
-    "opengov-meetings": "5.2.0",
+    "opengov-meetings": "5.2.1",
     "router": "1.3.3"
   },
   "husky": {
