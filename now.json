@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "folkevalgt-api",
+  "scope": "alheimsins",
   "alias": [
     "folkevalgt.alheimsins.net"
   ],
