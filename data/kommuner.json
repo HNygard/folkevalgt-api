@@ -78,7 +78,7 @@
     "name": "Bjerkreim kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_bjerkreim"
+      "endpoint": "https://innsyn.onacos.no/bjerkreim"
     }
   },
   "1119": {
