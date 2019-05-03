@@ -1,11 +1,22 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "folkevalgt-api",
   "alias": [
     "folkevalgt.alheimsins.net"
   ],
-  "type": "docker",
-  "features": {
-    "cloud": "v2"
-  }
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "builds": [
+    { 
+      "src": "/index.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
+  ]
 }
