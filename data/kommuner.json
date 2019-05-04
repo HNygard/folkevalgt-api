@@ -69,7 +69,11 @@
     "name": "Haugesund"
   },
   "1111": {
-    "name": "Sokndal"
+    "name": "Sokndal kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https://innsyn.onacos.no/sokndal"
+    }
   },
   "1112": {
     "name": "Lund"
@@ -99,7 +103,7 @@
     "name": "Time kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_time"
+      "endpoint": "https://innsyn.onacos.no/time"
     }
   },
   "1122": {
@@ -187,7 +191,7 @@
     "name": "Vindafjord kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_vindafjord"
+      "endpoint": "https://innsyn.onacos.no/vindafjord"
     }
   },
   "1201": {
@@ -266,7 +270,11 @@
     }
   },
   "1242": {
-    "name": "Samnanger"
+    "name": "Samnanger kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https://innsyn.e-kommune.no/innsyn_samnanger"
+    }
   },
   "1243": {
     "name": "Os kommune (Hordaland)",
@@ -373,7 +381,11 @@
     }
   },
   "1411": {
-    "name": "Gulen"
+    "name": "Gulen kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https://innsyn.onacos.no/gulen"
+    }
   },
   "1412": {
     "name": "Solund kommune",
@@ -397,7 +409,11 @@
     }
   },
   "1417": {
-    "name": "Vik"
+    "name": "Vik kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https://innsyn.onacos.no/vik"
+    }
   },
   "1418": {
     "name": "Balestrand"
@@ -815,7 +831,7 @@
     "name": "Vestvågøy kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_vestvagoy"
+      "endpoint": "https://innsyn.onacos.no/vestvagoy/pluss"
     }
   },
   "1865": {
@@ -835,14 +851,14 @@
     "name": "Øksnes kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_oksnes"
+      "endpoint": "https://innsyn.onacos.no/oksnes"
     }
   },
   "1870": {
     "name": "Sortland kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_sortland"
+      "endpoint": "https://innsyn.onacos.no/sortland/postliste"
     }
   },
   "1871": {
@@ -1273,7 +1289,7 @@
     "name": "Råde kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_raade"
+      "endpoint": "https://innsyn.onacos.no/rade/postliste"
     }
   },
   "0138": {
@@ -1329,14 +1345,14 @@
     "name": "Eidskog kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_eidskog_pluss"
+      "endpoint": "https://innsyn.onacos.no/eidskog/pluss"
     }
   },
   "0425": {
     "name": "Åsnes kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_asnes"
+      "endpoint": "https://innsyn.onacos.no/asnes"
     }
   },
   "0426": {
@@ -1357,14 +1373,14 @@
     "name": "Nord-Fron kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_nord-fron"
+      "endpoint": "https://innsyn.onacos.no/nordfron"
     }
   },
   "0519": {
     "name": "Sør-Fron kommune",
     "adapter": {
       "type": "acos",
-      "endpoint": "https://innsyn.e-kommune.no/innsyn_sorfron"
+      "endpoint": "https://innsyn.onacos.no/sorfron"
     }
   },
   "0520": {
@@ -1761,7 +1777,11 @@
     "name": "Øyer"
   },
   "0536": {
-    "name": "Søndre Land"
+    "name": "Søndre Land kommune",
+    "adapter": {
+      "type": "prokom",
+      "endpoint": "https://sru.sondre-land.kommune.no/api/utvalg"
+    }
   },
   "0815": {
     "name": "Kragerø"
@@ -1875,7 +1895,11 @@
     "name": "Folldal"
   },
   "0423": {
-    "name": "Grue"
+    "name": "Grue kommune",
+    "adapter": {
+      "type": "acos",
+      "endpoint": "https://innsyn.onacos.no/grue"
+    }
   },
   "0827": {
     "name": "Hjartdal"
