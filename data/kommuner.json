@@ -1218,14 +1218,14 @@
     "name": "Nordkapp"
   },
   "2020": {
-    "name": "Porsanger kommune",
+    "name": "Porsanger – Porsáŋgu – Porsanki",
     "adapter": {
       "type": "elements",
       "endpoint": "http://postlister.avjovarre.no/innsyn_porsanger/"
     }
   },
   "2021": {
-    "name": "Karasjok kommune",
+    "name": "Kárášjohka – Karasjok ",
     "adapter": {
       "type": "elements",
       "endpoint": "http://postlister.avjovarre.no/innsyn_karasjok/"
@@ -1245,14 +1245,14 @@
     "name": "Berlevåg"
   },
   "2025": {
-    "name": "Tana kommune",
+    "name": "Deatnu – Tana",
     "adapter": {
       "type": "elements",
       "endpoint": "http://einnsyn.tana.kommune.no/einnsynTana/"
     }
   },
   "2027": {
-    "name": "Nesseby kommune",
+    "name": "Unjárga – Nesseby",
     "adapter": {
       "type": "elements",
       "endpoint": "http://einnsyn.tana.kommune.no/einnsynNesseby/"
